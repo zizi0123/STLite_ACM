@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-five.memcheck">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-five.memcheck"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-five.memcheck/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-five.memcheck/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-five">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-five"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-five/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-five/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-four.memcheck">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-four.memcheck"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-four.memcheck/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-four.memcheck/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-four">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-four"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-four/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-four/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-one.memcheck">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-one.memcheck"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-one.memcheck/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-one.memcheck/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-one">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-one"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-one/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-one/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-three.memcheck">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-three.memcheck"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-three.memcheck/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-three.memcheck/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-three">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-three"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-three/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-three/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-two.memcheck">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-two.memcheck"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-two.memcheck/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two.memcheck" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-two.memcheck/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-two">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-two"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="pq-two/fast">
+				<Option output="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/src"/>
+					<Add directory="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 pq-two/fast"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j16 -f &quot;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/five.memcheck/code.cpp">
+			<Option target="pq-five.memcheck"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/five/code.cpp">
+			<Option target="pq-five"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/four.memcheck/code.cpp">
+			<Option target="pq-four.memcheck"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/four/code.cpp">
+			<Option target="pq-four"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/one.memcheck/code.cpp">
+			<Option target="pq-one.memcheck"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/one/code.cpp">
+			<Option target="pq-one"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/three.memcheck/code.cpp">
+			<Option target="pq-three.memcheck"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/three/code.cpp">
+			<Option target="pq-three"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/two.memcheck/code.cpp">
+			<Option target="pq-two.memcheck"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/two/code.cpp">
+			<Option target="pq-two"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

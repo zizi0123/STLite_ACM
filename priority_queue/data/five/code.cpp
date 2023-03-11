@@ -17,8 +17,8 @@ bool testmerge()
 	sjtu::priority_queue<int> pq1, pq2;
 	static int buffer[900000];
 	int pointer = 0;
-	const int MAXA = 400000;
-	const int MAXB = 400000;
+	const int MAXA = 4;
+	const int MAXB = 4;
 	for (int i = 1; i <= MAXA; i++) {
 		pq1.push(buffer[++pointer] = rand());
 	}

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/-five.dir/data/five/code.cpp.o -o -five 

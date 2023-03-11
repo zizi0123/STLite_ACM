@@ -111,7 +111,8 @@ void TestCompareException() {
 
 int main(int argc, char *const argv[])
 {
-	TestConstructorAndPush();
+//    freopen("out","w",stdout);
+    TestConstructorAndPush();
 	TestSize();
 	TestException();
     TestCompareException();

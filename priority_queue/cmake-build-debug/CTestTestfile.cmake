@@ -1,0 +1,26 @@
+# CMake generated Testfile for 
+# Source directory: /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue
+# Build directory: /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test([=[pq-five.memcheck]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five.memcheck | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/five.memcheck/answer.txt -")
+set_tests_properties([=[pq-five.memcheck]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-five]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-five | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/five/answer.txt -")
+set_tests_properties([=[pq-five]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-four.memcheck]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four.memcheck | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/four.memcheck/answer.txt -")
+set_tests_properties([=[pq-four.memcheck]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-four]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-four | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/four/answer.txt -")
+set_tests_properties([=[pq-four]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-one.memcheck]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one.memcheck | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/one.memcheck/answer.txt -")
+set_tests_properties([=[pq-one.memcheck]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-one]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-one | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/one/answer.txt -")
+set_tests_properties([=[pq-one]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-three.memcheck]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three.memcheck | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/three.memcheck/answer.txt -")
+set_tests_properties([=[pq-three.memcheck]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-three]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-three | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/three/answer.txt -")
+set_tests_properties([=[pq-three]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-two.memcheck]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two.memcheck | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/two.memcheck/answer.txt -")
+set_tests_properties([=[pq-two.memcheck]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")
+add_test([=[pq-two]=] "bash" "-c" "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/cmake-build-debug/pq-two | diff -Zb /mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/data/two/answer.txt -")
+set_tests_properties([=[pq-two]=] PROPERTIES  TIMEOUT "3" _BACKTRACE_TRIPLES "/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;18;add_test;/mnt/c/Users/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue/CMakeLists.txt;0;")

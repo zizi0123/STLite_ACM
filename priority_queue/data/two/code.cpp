@@ -224,7 +224,8 @@ bool check11(){
 
 
 int main(){
-	check1();
+//    freopen("out","w",stdout);
+    check1();
     check2();
 	check3();
 	check4();

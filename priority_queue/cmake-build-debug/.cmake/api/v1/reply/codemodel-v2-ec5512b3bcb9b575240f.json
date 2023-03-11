@@ -1,0 +1,141 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "priority_queue",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-five::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-five-Debug-5c311a0cf693878e50c0.json",
+					"name" : "pq-five",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-five.memcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-five.memcheck-Debug-44c38d91c236bd52740e.json",
+					"name" : "pq-five.memcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-four::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-four-Debug-0081b6c217b9e08ed5c1.json",
+					"name" : "pq-four",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-four.memcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-four.memcheck-Debug-172c46bf735bff1ca954.json",
+					"name" : "pq-four.memcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-one::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-one-Debug-d6cbeeeb55e2b3d41d70.json",
+					"name" : "pq-one",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-one.memcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-one.memcheck-Debug-e2302297c2f1a78c2d4c.json",
+					"name" : "pq-one.memcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-three::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-three-Debug-6c4dca207fc6c22f1455.json",
+					"name" : "pq-three",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-three.memcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-three.memcheck-Debug-9104c9cb0a76d05667ba.json",
+					"name" : "pq-three.memcheck",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-two::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-two-Debug-ecabd8572cd61e6357b3.json",
+					"name" : "pq-two",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pq-two.memcheck::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pq-two.memcheck-Debug-7e3f1906249de5563159.json",
+					"name" : "pq-two.memcheck",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/mnt/c/Users/86180/Desktop/\u6570\u636e\u7ed3\u6784/\u5927\u4f5c\u4e1a/STLite_ACM/priority_queue/cmake-build-debug",
+		"source" : "/mnt/c/Users/86180/Desktop/\u6570\u636e\u7ed3\u6784/\u5927\u4f5c\u4e1a/STLite_ACM/priority_queue"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

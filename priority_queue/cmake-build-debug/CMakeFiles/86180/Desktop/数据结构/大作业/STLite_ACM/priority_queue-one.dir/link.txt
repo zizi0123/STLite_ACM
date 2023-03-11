@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue-one.dir/data/one/code.o -o 86180/Desktop/数据结构/大作业/STLite_ACM/priority_queue-one 
