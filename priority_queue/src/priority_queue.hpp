@@ -108,7 +108,7 @@ namespace sjtu {
          */
         ~priority_queue() {
             clear(root);   //clear以后root会变成nullptr!!!!!!!!!
-            delete root;
+            root = nullptr;
         }
 
         /**
@@ -182,9 +182,9 @@ namespace sjtu {
                 root = root->left_son;
                 root->father = nullptr;
             }
-            if (ele_num != 1) delete temp;   //不把根节点删掉
+            delete temp;   //不把根节点删掉
             --ele_num;
-
+            if (ele_num == 0) root = nullptr;
         }
 
         /**
@@ -203,10 +203,11 @@ namespace sjtu {
         }
 
         void clear(node *a) {    //typename是告诉编译器priority_queue<T>::node是一个类型 保证root不会变成nullptr
-            if(a == nullptr) return;
+            if (a == nullptr) return;
             if (a->left_son != nullptr) clear(a->left_son);
             if (a->right_son != nullptr) clear(a->right_son);
             delete a;
+            a = nullptr;
         }
 
         /**
@@ -215,9 +216,9 @@ namespace sjtu {
          */
         void merge(priority_queue &other) {
             merge_node(root, other.root);
-            ele_num+=other.ele_num;
-            other.root=nullptr;
-            other.ele_num=0;
+            ele_num += other.ele_num;
+            other.root = nullptr;
+            other.ele_num = 0;
         }
 
 
