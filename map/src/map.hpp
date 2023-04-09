@@ -12,7 +12,15 @@
 
 namespace sjtu {
 
+    struct my_true_type {
+        bool flag = true;
+    };
+    struct my_false_type {
+        bool flag = false;
+    };
+
     template<class Key, class T, class Compare = std::less<Key>>
+
     class map {
 
     public:
@@ -22,6 +30,8 @@ namespace sjtu {
          * You can use sjtu::map as value_type by typedef.
          */
         typedef pair<const Key, T> value_type;
+
+
 
         struct node {
             value_type data;
@@ -48,6 +58,8 @@ namespace sjtu {
         class iterator {
 
         public:
+            // 在这个类空间里，iterator_assignable是一种独特的称呼，它是类型my_true_type的别名
+            using iterator_assignable = my_true_type;
             node *ptr = nullptr;
             map<Key, T, Compare> *this_map;
             bool if_end; //表示是否是end()
@@ -134,34 +146,34 @@ namespace sjtu {
                 iterator iter(*this);
                 if (if_end) {  //是end 指针
                     ptr = this_map->root;
-                    if(ptr == nullptr) throw invalid_iterator();
+                    if (ptr == nullptr) throw invalid_iterator();
                     while (ptr->rson != nullptr) ptr = ptr->rson;
                     if_end = false; //不再是end迭代器了
                     return iter;
                 }
-                if (ptr->lson == nullptr){
-                    if(ptr->dad == nullptr) {
+                if (ptr->lson == nullptr) {
+                    if (ptr->dad == nullptr) {
                         throw invalid_iterator(); //说明为迭代器begin;
-                    }else if(ptr == ptr->dad->lson){
-                        node* temp = ptr;
-                        while(temp->dad != nullptr && temp == temp->dad->lson){
+                    } else if (ptr == ptr->dad->lson) {
+                        node *temp = ptr;
+                        while (temp->dad != nullptr && temp == temp->dad->lson) {
                             temp = temp->dad;
                         }
-                        if(temp->dad == nullptr){
+                        if (temp->dad == nullptr) {
                             throw invalid_iterator(); //说明为迭代器begin;
                         }
                     }
                 }
-                if(ptr->lson!= nullptr){ //找到左子树中最大的元素
+                if (ptr->lson != nullptr) { //找到左子树中最大的元素
                     ptr = ptr->lson;
                     while (ptr->rson != nullptr) ptr = ptr->rson;
-                }else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
+                } else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
                     ptr = ptr->dad;
-                }else{
-                    while(ptr == ptr->dad->lson){
+                } else {
+                    while (ptr == ptr->dad->lson) {
                         ptr = ptr->dad;
                     }
-                    ptr = ptr-> dad;
+                    ptr = ptr->dad;
                 }
                 return iter;
             }
@@ -172,34 +184,34 @@ namespace sjtu {
             iterator &operator--() {
                 if (if_end) {  //是end 指针
                     ptr = this_map->root;
-                    if(ptr == nullptr) throw invalid_iterator();
+                    if (ptr == nullptr) throw invalid_iterator();
                     while (ptr->rson != nullptr) ptr = ptr->rson;
                     if_end = false; //不再是end迭代器了
                     return *this;
                 }
-                if (ptr->lson == nullptr){
-                    if(ptr->dad == nullptr) {
+                if (ptr->lson == nullptr) {
+                    if (ptr->dad == nullptr) {
                         throw invalid_iterator(); //说明为迭代器begin;
-                    }else if(ptr == ptr->dad->lson){
-                        node* temp = ptr;
-                        while(temp->dad != nullptr && temp == temp->dad->lson){
+                    } else if (ptr == ptr->dad->lson) {
+                        node *temp = ptr;
+                        while (temp->dad != nullptr && temp == temp->dad->lson) {
                             temp = temp->dad;
                         }
-                        if(temp->dad == nullptr){
+                        if (temp->dad == nullptr) {
                             throw invalid_iterator(); //说明为迭代器begin;
                         }
                     }
                 }
-                if(ptr->lson!= nullptr){ //找到左子树中最大的元素
+                if (ptr->lson != nullptr) { //找到左子树中最大的元素
                     ptr = ptr->lson;
                     while (ptr->rson != nullptr) ptr = ptr->rson;
-                }else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
+                } else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
                     ptr = ptr->dad;
-                }else{
-                    while(ptr == ptr->dad->lson){
+                } else {
+                    while (ptr == ptr->dad->lson) {
                         ptr = ptr->dad;
                     }
-                    ptr = ptr-> dad;
+                    ptr = ptr->dad;
                 }
                 return *this;
             }
@@ -248,6 +260,8 @@ namespace sjtu {
             //  and it should be able to construct from an iterator.
 
         public:
+
+            using iterator_assignable = my_false_type;
             node const *ptr;
             map const *this_map;
             bool if_end;
@@ -330,34 +344,34 @@ namespace sjtu {
                 const_iterator iter(*this);
                 if (if_end) {  //是end 指针
                     ptr = this_map->root;
-                    if(ptr == nullptr) throw invalid_iterator();
+                    if (ptr == nullptr) throw invalid_iterator();
                     while (ptr->rson != nullptr) ptr = ptr->rson;
                     if_end = false; //不再是end迭代器了
                     return iter;
                 }
-                if (ptr->lson == nullptr){
-                    if(ptr->dad == nullptr) {
+                if (ptr->lson == nullptr) {
+                    if (ptr->dad == nullptr) {
                         throw invalid_iterator(); //说明为迭代器begin;
-                    }else if(ptr == ptr->dad->lson){
-                        const node* temp = ptr;
-                        while(temp->dad != nullptr && temp == temp->dad->lson){
+                    } else if (ptr == ptr->dad->lson) {
+                        const node *temp = ptr;
+                        while (temp->dad != nullptr && temp == temp->dad->lson) {
                             temp = temp->dad;
                         }
-                        if(temp->dad == nullptr){
+                        if (temp->dad == nullptr) {
                             throw invalid_iterator(); //说明为迭代器begin;
                         }
                     }
                 }
-                if(ptr->lson!= nullptr){ //找到左子树中最大的元素
+                if (ptr->lson != nullptr) { //找到左子树中最大的元素
                     ptr = ptr->lson;
                     while (ptr->rson != nullptr) ptr = ptr->rson;
-                }else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
+                } else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
                     ptr = ptr->dad;
-                }else{
-                    while(ptr == ptr->dad->lson){
+                } else {
+                    while (ptr == ptr->dad->lson) {
                         ptr = ptr->dad;
                     }
-                    ptr = ptr-> dad;
+                    ptr = ptr->dad;
                 }
                 return iter;
             }
@@ -368,34 +382,34 @@ namespace sjtu {
             const_iterator &operator--() {
                 if (if_end) {  //是end 指针
                     ptr = this_map->root;
-                    if(ptr == nullptr) throw invalid_iterator();
+                    if (ptr == nullptr) throw invalid_iterator();
                     while (ptr->rson != nullptr) ptr = ptr->rson;
                     if_end = false; //不再是end迭代器了
                     return *this;
                 }
-                if (ptr->lson == nullptr){
-                    if(ptr->dad == nullptr) {
+                if (ptr->lson == nullptr) {
+                    if (ptr->dad == nullptr) {
                         throw invalid_iterator(); //说明为迭代器begin;
-                    }else if(ptr == ptr->dad->lson){
-                        const node* temp = ptr;
-                        while(temp->dad != nullptr && temp == temp->dad->lson){
+                    } else if (ptr == ptr->dad->lson) {
+                        const node *temp = ptr;
+                        while (temp->dad != nullptr && temp == temp->dad->lson) {
                             temp = temp->dad;
                         }
-                        if(temp->dad == nullptr){
+                        if (temp->dad == nullptr) {
                             throw invalid_iterator(); //说明为迭代器begin;
                         }
                     }
                 }
-                if(ptr->lson!= nullptr){ //找到左子树中最大的元素
+                if (ptr->lson != nullptr) { //找到左子树中最大的元素
                     ptr = ptr->lson;
                     while (ptr->rson != nullptr) ptr = ptr->rson;
-                }else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
+                } else if (ptr == ptr->dad->rson) {  //已经排除了begin迭代器，保证了肯定有父节点
                     ptr = ptr->dad;
-                }else{
-                    while(ptr == ptr->dad->lson){
+                } else {
+                    while (ptr == ptr->dad->lson) {
                         ptr = ptr->dad;
                     }
-                    ptr = ptr-> dad;
+                    ptr = ptr->dad;
                 }
                 return *this;
             }
@@ -509,8 +523,8 @@ namespace sjtu {
          * return a iterator to the beginning
          */
         iterator begin() {
-            if(ele_size == 0){ // map为空时，begin==end
-                return iterator(nullptr,this, true);
+            if (ele_size == 0) { // map为空时，begin==end
+                return iterator(nullptr, this, true);
             }
             node *ptr = root;
             while (ptr->lson != nullptr) ptr = ptr->lson;
@@ -518,8 +532,8 @@ namespace sjtu {
         }
 
         const_iterator cbegin() const {  //常量成员函数的声明const会导致传出的this指针是一个常量指针
-            if(ele_size == 0){ // map为空时，begin==end
-                return const_iterator(nullptr,this, true);
+            if (ele_size == 0) { // map为空时，begin==end
+                return const_iterator(nullptr, this, true);
             }
             node *ptr = root;
             while (ptr->lson != nullptr) ptr = ptr->lson;
@@ -833,7 +847,6 @@ namespace sjtu {
             }
         }
     };
-
 
 
 }
